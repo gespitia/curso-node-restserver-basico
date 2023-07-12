@@ -36,3 +36,44 @@ Usar el comando en la descripción del error para subir la rama.
 
 
 Mucha suerte!
+
+============================================================================================================================================================
+
+Nuevo despliegue a Railway
+Tarea - Desplegar en Railway
+
+Los quiero invitar a que intenten hacer el despliegue de su aplicación a Railway por su cuenta.
+
+
+
+Pasos que les pueden ayudar:
+
+1. Cambios en su repositorio
+
+git checkout -b 4.0.0
+
+git add .
+
+git commit -m "Fin sección 11 - version 4.0.0"
+
+
+
+2.Crear y subir una rama
+
+git push
+
+(Ese comando dará un error)
+
+Usar el comando en la descripción del error para subir la rama.
+
+
+
+3. En Railway, seleccionar la rama 4.0.0 para desplegar
+
+4. Revisar si hay cambios en variables de entorno necesarias
+
+5. Esperar que el deployment se realice, si aparecen errores, tratar de corregirlos y probar de nuevo.
+
+
+
+Mucha suerte!
